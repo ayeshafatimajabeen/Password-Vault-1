@@ -1,20 +1,58 @@
-# Password-Vault-1
-<br>
-PasswordVault is a security project that helps users stay safe online by protecting their passwords and personal information. It is easy to use and useful even for people with no technical background.
-<br>
-Password Strength Analyzer:<br>
-Checks how strong a password is using machine learning and tells whether it is weak or strong.
-<br>
-Pwned Password Checker:<br>
-Checks if a password has been leaked in any data breach using the Have I Been Pwned API.
-<br>
-Password Generator:<br>
-Creates strong and secure passwords automatically so users don’t use weak ones.
-<br>
-IP Lookup:<br>
-Shows information about an IP address to help detect suspicious activity.
-<br>
-Future Work:<br>
-A password manager and two-factor authentication are being added for extra security.
-<br>
-Overall, PasswordVault helps users improve their online security in one simple platform.
+# PasswordVault
+
+This project consists of a powerful collection of tools intended to assist users with enhancing their online safety and privacy. Easy to use and navigate so anyone can benefit from the tools provided, despite previous technical experience.
+
+1. Password Strength Analyzer
+This tool can evaluate the strength of your passwords with machine learning, using a XGBClassifier model. Use it to identify weak passwords to help enhance your password security with guidelines and recommendations.
+
+2. Pwned Password Checker
+This tool uses the Have I Been Pwned API to check if your passwords have been part of any data breaches. Protect sensitive information by ensuring your passwords are not compromised.
+
+3. Password Generator
+This tool generates strong and unique passwords with customizable length. Enhance your safety and secure your online accounts with robust passwords. Optimal for quickly and effortlessly replacing weak passwords.
+
+4. IP Lookup
+This tool can help you identify potential threats and suspicious activities by providing information about a given IP address. Find geographic location, owner and other details of IP addresses.
+
+Two factor authentication and password manager in progress.
+
+## Tech Stack
+
++ Python
++ Streamlit
++ Jupyter
+
+## Screenshots
+
+[Live demo](https://passwordvault.streamlit.app/)
+
+![passwordvaultscreenshot](https://github.com/tildajson/PasswordVault/assets/130234732/149264f3-3818-4899-8016-a88e8ba56ff0)
+
+
+## Installation
+
+Clone this repository.
+
+#### Install dependencies:
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+#### To start server:
+
+```bash
+
+python -m streamlit run Password_Vault.py
+
+```
+
+#### To visit app:
+
+```bash
+
+http://192.168.1.184:8501
+
+```
