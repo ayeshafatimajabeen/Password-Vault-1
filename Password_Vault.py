@@ -21,11 +21,7 @@ def main():
              Enhance your safety and secure your online accounts with robust passwords.
              Optimal for quickly and effortlessly replacing weak passwords.""")
 
-    st.write("### IP Lookup")
-    st.write("""This tool can help you identify potential threats and suspicious activities by providing information about a given IP address.
-             Find geographic location, owner and other details of IP addresses.""")
-
-    st.sidebar.success("Select a demo above.")
+st.sidebar.success("Select a demo above.")
 
 
 if __name__ == "__main__":
